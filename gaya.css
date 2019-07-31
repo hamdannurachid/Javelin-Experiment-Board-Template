@@ -1,0 +1,146 @@
+/*
+
+Darko Bunic
+http://www.redips.net/
+Apr, 2013.
+
+*/
+p {
+	font-size:12px;
+}
+
+body {
+	font-family: arial;
+	margin: 0px;
+}
+
+/* drag container*/
+#redips-drag {
+	border: 2px dashed LightBlue;
+	width: 100%;
+	padding: 2px;
+	margin: 0px auto;
+	
+}
+
+div#redips-drag td {
+	border: 2px groove white;
+}
+
+/* table titles */
+div#redips-drag th {
+	font-size: 14pt;
+}
+.redips-mark {
+	color: white;
+	background-color: SteelBlue;
+	text-align: center;
+}
+#a {
+	margin-right: 2px;
+	margin-bottom: 2px;
+	padding: 5px;
+}
+
+.redips-drag {
+	margin: auto;
+	/*margin-bottom: 2px;*/
+	/*margin-top: 2px;*/
+	text-align: center;
+	max-width: 200px;
+	background-color: orange;
+	font-size: 11pt; /* needed for cloned object */
+	/* round corners */
+	border-radius: 0px; /* Opera, Chrome */
+	-moz-border-radius: 4px; /* FF */
+	/*margin-bottom: 2px; */
+	display: inline-block;
+	float: none;
+	padding: 2px;
+
+}
+
+
+
+.beda {
+	width: 100px;
+	height: 40px;	
+
+}
+/* tables */
+
+div#redips-drag table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+/* table cells */
+	div#redips-drag td {
+		border: 1px solid #bfbfbf;
+		text-align: center;
+		font-size: 12pt;
+		padding: 3px;	border: 2px solid grey
+
+	}
+
+	div#redips-drag td p {
+	text-align: left;
+	}
+
+
+
+/* green, orange and blue DIV elements */
+.green {
+	border: 1px solid #499B33;
+}
+.orange {
+	border: 1px solid #BF6A30;
+}
+.blue {
+	border: 1px solid SteelBlue;
+}
+
+/* message below tables */
+#message {
+	padding-left: 10px;
+	color: #6A93D4;
+	height: 100px;
+	padding-top: 20px;
+}
+
+/* single content cells (with clone objects on the left) */
+
+/* trash cell */
+.redips-trash {
+	color: white;
+	background-color: SteelBlue;
+	height: 26px;
+}
+
+
+.ungu {
+	background: #a972af;
+}
+.ungu1 {
+	background: #8a70b1;
+}
+.pink {
+	background: #e38dbb;
+}
+.yellow {
+	background: #ecc331;
+}
+
+.aa{
+	background: #c3b4d9;
+}
+.bb {
+	background: #b4d9d3;
+}
+.cc {
+	background: #bbd9b4;
+}
+
+.alert {
+	padding: -100px;
+}
